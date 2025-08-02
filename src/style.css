@@ -221,46 +221,67 @@ h4{
 
 /*contact.html*/
 
+#contact-heading{
+    text-align: center;
+    color:white
+}
 #contact-bar{
-    color:hsl(60, 100%, 95%);
-    margin-top: 30px;
-    height: 400px;
-    padding-left:20px;
-    border: 4px solid rgb(0, 0, 0);
-    
+    display: flex;
+    border:3px solid hsl(0, 0%, 0%);
+    background-color: hsl(0, 2%, 30%);
+    border-radius: 2%;
+    box-shadow: 10px 0px 20px hsl(92, 6%, 49%);
+    height: 330px;
+    width: 80%;
+    padding-right:20px;
+    justify-content: space-around;
+    justify-self: center;
+    color:hsl(0, 0%, 100%);
+    margin-bottom: 50px;
 }
 #contact-form{
-    margin-top:20px;
+    height: 350px;
     font-size: 25px;
     font-weight: bold;
-    color:hsl(207, 94%, 81%);
+    color:hsl(206, 65%, 80%);
 }
-#user{
-    border: 2px solid rgb(238, 239, 239);
-    height: 25px;
+#user,#my-email{
+    border: 2px solid rgb(236, 243, 243);
+    margin-top: 15px;
+    height: 23px;
     border-radius: 2%;
-    width: 15%;
-    font-size:17px;
+    font-size:15px;
     padding-left: 10px;
     font-weight: 500;
-     background-color:hsl(0, 0%, 89%) ;
+    background-color:hsl(0, 1%, 94%) ;
     color:hsl(0, 0%, 0%);
 }
 
-#user:hover{
-     background-color: hsl(0, 3%, 30%); ;
-   color:hsl(0, 0%, 96%);
-}
 #massage{
     margin-top: 10px ;
-    font-size: 18px;
-    
+    font-size: 17px;
+    border-radius: 2%;
+    padding:10px 10px;
 }
 #submit-button{
-
-    height: 20px;
-    width: 70px;
+    background-color: hsl(28, 63%, 80%);
+    height: 30px;
+    font-size:17px;
+    color:hsl(0, 0%, 0%);
+    font-weight: bold;
+    width: 95px;
 }
-
+#contact-platforms{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:hsl(72, 58%, 66%)
+}
+.icon{
+    background-color: rgb(162, 190, 193);
+    border-radius: 45%;
+    padding:0px 2px;
+    height: 27px;
+    width: 27px;
+}
 
 
