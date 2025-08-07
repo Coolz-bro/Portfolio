@@ -12,7 +12,7 @@ body{
 
 nav{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(255, 255, 255);
     box-shadow: inset 1px 1px 6px black ;
     display: flex;
     position: sticky;
@@ -35,7 +35,7 @@ a{
     color:hsla(0,100%,0%,0.7);
 }
 a:hover{
-    color:hsl(10,50%,50%);
+    color:hsl(213, 55%, 47%);
     font-weight: 600;
     font-style: italic;
 }
@@ -45,6 +45,8 @@ a:hover{
     padding-top: 10px;
     padding-right: 15px;
 }
+
+
 .container{
     margin-top: 50px;
     display: flex;
@@ -282,6 +284,74 @@ h4{
     padding:0px 2px;
     height: 27px;
     width: 27px;
+}
+
+.icon:hover{
+    scale: 1.15;
+}
+
+/* projects.html*/
+#project-list{
+    margin-top: 50px;
+    height: 430px;
+    display: grid;
+    width: 1000px;
+    /* border:5px solid rgb(179, 178, 178); */
+    grid: repeat(4,160px)/repeat(4,250px);
+    justify-self: center;
+    grid-gap: 15px 20px;
+   
+}
+.box{
+   background-color: hsl(280,15%, 32%);
+   grid-row: span 2;
+   border-radius: 5%;
+   text-align: center;
+   padding-top: 8%;
+}
+.first{
+   background-image: url("/portfolio/images/projects/white.png");
+   background-size: 250px 120px;
+   background-position:top;
+   background-repeat: no-repeat;  
+}
+#first{
+    height: 90px;
+    width: 90px;
+   
+}
+.project-link{
+   color:hsl(0, 0%, 100%);
+   font-size: 19px;
+   font-weight: bold;
+}
+.project-link:hover{
+    color:hsl(100, 35%, 72%);
+    font-style: normal;
+    text-decoration:underline;
+}
+
+/* .box{
+    background-image: url("/portfolio/images/projects/tictactoe-test.png");
+    background-size: 210px 140px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 10px;
+   
+  
+} */
+
+
+.description{
+    font-size: 20px;
+    color:hsl(120, 24%, 77%)
+}
+
+/*massage.html*/
+
+#thankyou-massage{
+    text-align: center;
+    color:hsl(149, 79%, 50%)
 }
 
 
