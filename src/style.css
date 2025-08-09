@@ -291,48 +291,69 @@ h4{
 }
 
 /* projects.html*/
+
+#heading-projects{
+    text-align: center;
+    color:hsl(68, 100%, 72%)
+}
 #project-list{
     margin-top: 50px;
     height: 430px;
     display: grid;
     width: 1000px;
     /* border:5px solid rgb(179, 178, 178); */
-    grid: repeat(4,160px)/repeat(4,250px);
-    justify-self: center;
+    grid: repeat(2,165px)/repeat(3,250px);
+    justify-self: center ;
+    justify-content: space-evenly;
     grid-gap: 15px 20px;
    
 }
 .box{
-   background-color: hsl(280,15%, 32%);
+   background-color: hsla(0, 5%, 29%, 0.6);
    grid-row: span 2;
    border-radius: 5%;
+   box-shadow: -5px 5px 20px 1px rgb(58, 55, 55);
    text-align: center;
-   padding-top: 8%;
-}
-.first{
-   background-image: url("/portfolio/images/projects/white.png");
-   background-size: 250px 120px;
-   background-position:top;
-   background-repeat: no-repeat;  
-}
-#first{
-    height: 90px;
-    width: 90px;
-   
-}
-.project-link{
-   color:hsl(0, 0%, 100%);
-   font-size: 19px;
-   font-weight: bold;
-}
-.project-link:hover{
-    color:hsl(100, 35%, 72%);
-    font-style: normal;
-    text-decoration:underline;
 }
 
+.box:hover{
+    scale: 1.03;
+    box-shadow: -5px 5px 20px 5px hsl(0, 0%, 0%);
+}
+
+.project{
+    display: flex;
+    height: 100px;
+    width: 230px;
+    justify-self: center;
+    justify-content:center;
+    align-items: center;
+    border-radius: 3%;
+    background-color: hsl(20, 80%, 95%);
+}
+.desription{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    font-size: 17px;
+    padding:  0px 10px;
+    color:hsl(210, 25%, 94%);
+    line-height: 1.3;
+}
+
+.project-link{
+    text-decoration: underline;
+    font-size: 19px;
+    color:hsl(0, 100%, 85%)
+}
+
+.project-link:hover{
+     color:hsl(0, 82%, 62%)
+}
+
+
+
 /* .box{
-    background-image: url("/portfolio/images/projects/tictactoe-test.png");
+    background-image: url("/images/projects/portfolio.png");
     background-size: 210px 140px;
     background-repeat: no-repeat;
     background-position: center;
@@ -341,11 +362,6 @@ h4{
   
 } */
 
-
-.description{
-    font-size: 20px;
-    color:hsl(120, 24%, 77%)
-}
 
 /*massage.html*/
 
