@@ -1,6 +1,6 @@
-<h1> THIS IS THE LANK FOR MY PORTFOLIO https://coolz-bro.github.io/Portfolio/index.html </h1>
+ THIS IS THE LANK FOR MY PORTFOLIO  https://coolz-bro.github.io/Portfolio/index.html 
 
-<h2>Portfolio</h2>
+<h1>Portfolio</h1>
 
 <p>
     This is my personal website. Hier you can find everything about me. 
