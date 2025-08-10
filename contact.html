@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav > 
+        <ul>
+            <li><a href="/src/index.html">Home</a></li>
+            <li><a href="/src/about.html">About</a></li>
+            <li><a href="/src/projects.html">Porjects</a></li>
+            <li><a href="/src/about.html#extra">Skills</a></li>
+            <li><a href="/src/contact.html">contact</a></li>
+        </ul>      
+    </nav>   
+    <main>
+        <h1 id="contact-heading">Contact me</h1>
+        <div id="contact-bar">
+            <div id="conntact-information">
+                <h1>Mohamad Taha</h1>
+                <ul id="contact-platforms">
+                    <h3><img src="/images/contact/person.png" class="icon"> Programmer and web developer</h3>
+                    <h3><img src="/images/contact/home.png" class="icon">  Kassel, Germany</h3>
+                    <h3> <img src="/images/home/gmail-logo.png" class="icon">  mt1288ta@gmail.com</h3>
+                    <h3><img src="/images/contact/whatsapp-icon2.png" class="icon"> 01575 8232587</h3>
+                </ul>
+            </div>
+            <form id="contact-form" action="massage.html" method="POST">
+                <label for="user">Your Name :</label>
+                <input  type="text" placeholder="Max Mustermann" id="user" name="user" required  minlength="3" maxlength="20"><br>
+                <label for="my-email">Your E-Mail: </label>
+                <input type="email"  id="my-email" name="my-email"  ><br><br>
+                <label for="message" >Send me a massage !</label><br>
+                <textarea id="massage" name="massage" rows="4" cols="40" required  minlength="20" placeholder="Random text"></textarea><br>
+                <a href="/src/massive.html"><input id="submit-button" type="submit" value="send" required ></a> 
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h3>You can find me on</h3>
+        <figure id="accounts">
+            <a href="https://github.com/Coolz-bro" target="_blank">
+                <img class="social-platforms" src="/images/home/github-logo.png" title="github">
+            </a>
+            
+            <a href="https://www.codecademy.com/profiles/Coolz-bro" target="_blank">
+                <img class="social-platforms" src="/images/home/codecademy-logo.png" title="Codecademy">
+            </a>
+            <a href="https://discord.com" target="_blank">
+                <img class="social-platforms"  src="/images/home/discord-logo.png" title="@mohamadtaha0264">
+            </a>
+            <a href="/src/contact.html" >
+                <img class="social-platforms"  src="/images/home/gmail-logo.png" title="contact">
+            </a>
+        </figure>
+        <h4> All rights reserved to Coolz-bro 2025 </h4>
+    </footer>
+</body>
+</html>
