@@ -185,7 +185,7 @@ h4{
     justify-content: space-around;
     align-items: center;
     height: 125px;
-    width:50%;
+    width:55%;
     background-color: hsl(0, 2%, 35%);
     border-radius: 1%;
 }
@@ -206,7 +206,7 @@ h4{
 #tools{
     background-color: rgb(69, 58, 58);
     height: 130px;
-    width: 45%;
+    width: 55%;
     justify-content: space-evenly;
     
 }
